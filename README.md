@@ -46,6 +46,7 @@ serverCount = len(client.guilds)
 async def on_ready():
     disbotapipy.updateStats(clientid, token, serverCount)
 
+
 **Where can I find the auth token?**
 
 You can find your auth token via the API page on the disbot.top website

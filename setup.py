@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'disbotapipy',         # How you named your package folder (MyLib)
   packages = ['disbotapipy'],   # Chose the same as "name"
-  version = '1.2',      # Start with a small number and increase it with every change you make
+  version = '1.3',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A simple Python module for the disbot.top service',   # Give a short description about your library
   author = 'Smirf123',                   # Type in your name

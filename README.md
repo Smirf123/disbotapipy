@@ -35,8 +35,8 @@ You can POST Server and Shard Count stats once every 5 minutes
 
 
 ## Updating Server Count
-
-```js
+CURRENLY WIP, CHECK BACK SOON
+```py
 import disbotapipy
 token = "bot-auth-token"
 clientid = client.user.id

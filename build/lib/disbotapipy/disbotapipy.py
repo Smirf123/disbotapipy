@@ -6,5 +6,5 @@ def updateStats(clientid, token, serverCount):
     else:
         sendURL = f'https://disbot.top/api/v1/botupdate/{clientid}'
         auth = {'authorization': token}
-        success = requests.post(sendURL, data = serverCount, headers={'Authorization': 'TOK:<token>'})
+        success = requests.post(sendURL, data = auth)
         print(f"{success} We did it")

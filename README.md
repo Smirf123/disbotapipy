@@ -43,7 +43,7 @@ clientid = "user-id-here"
 serverCount = len(client.guilds)
 @client.event()
 async def on_ready():
-    disbotapipy.updateStats(clientid, token, serverCount)
+    disbotapipy.disbot.updateStats(client, clientid, token, serverCount)
 
 You can loop this as needed, but make sure to not spam the api.
 

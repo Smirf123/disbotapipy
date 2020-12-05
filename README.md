@@ -35,16 +35,17 @@ You can POST Server and Shard Count stats once every 5 minutes
 
 
 ## Updating Server Count
-CURRENLY WIP, CHECK BACK SOON
+Working
 ```py
-import disbotapipy
+from disbotapipy import disbotapipy
 token = "bot-auth-token"
-clientid = client.user.id
+clientid = "user-id-here"
 serverCount = len(client.guilds)
 @client.event()
 async def on_ready():
     disbotapipy.updateStats(clientid, token, serverCount)
 
+You can loop this as needed, but make sure to not spam the api.
 
 **Where can I find the auth token?**
 

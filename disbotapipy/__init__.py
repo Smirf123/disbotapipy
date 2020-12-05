@@ -1,2 +1,2 @@
-from disbotapipy import updateStats
+from disbotapipy import disbotapipy
 name = "disbotapipy"

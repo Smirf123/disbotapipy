@@ -2,7 +2,7 @@ import requests
 
 class disbot():
 
-    def updateStats(self, clientid, token, serverCount):
+    def updateStats(self, clientid, token, serverCount:int):
         if(serverCount < 0):
             print("A server count must be sent by the bot")
         else:

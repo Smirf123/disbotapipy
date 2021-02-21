@@ -34,6 +34,13 @@ You can POST Server and Shard Count stats once every 5 minutes
 ---
 
 
+**Methods**
+`getVotes(clientid)`
+`getInfo(clientid)`
+`updateStats(client, clientid, token, servercount)`
+
+
+
 ## Updating Server Count
 Working
 ```py
